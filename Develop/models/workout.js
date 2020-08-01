@@ -44,7 +44,7 @@ const workoutSchema = new Schema({
   }]
 
 },
-//virtual property (total duration)
+//virtual property (total duration) [see dashboard on application for this]
 {
   toJSON: {
     //include any virtual properties when data is requested

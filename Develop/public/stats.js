@@ -8,9 +8,7 @@ fetch("/api/workouts/range")
     populateChart(data);
   });
 
-
 API.getWorkoutsInRange()
-
   function generatePalette() {
     const arr = [
     "#003f5c",
